@@ -1,4 +1,4 @@
-# Welcome to EngineerLove.com(beta),
+# Welcome to: EngineerLove.com(beta)
 
 ## A social networking site for people looking for love in the software developement field.
 
