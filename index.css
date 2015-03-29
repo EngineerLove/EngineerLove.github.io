@@ -10,25 +10,27 @@ border: 1px solid black;
 padding-bottom: 10px;
 background-color: #336699;
 height: 620px;
+box-shadow: 0px 0px 22px 3px;
 }
 
 
 h1 {
 color: #EBEBEB;
+text-shadow: 0px 0px 31px black;
 }
 
 p {
 color: #EBEBEB;
+text-shadow: 0px 0px 9px whitesmoke;
 }
 
 input {
 border: 1px solid #EBEBEB;
-height: 25px;
-width: 150px;
-height: 21px;
-width: 200px;
+height: 24px;
+width: 220px;
+box-shadow: 0px 0px 7px 3px;
 }
 
 h3 {
-text-shadow: 0px 0px 0px yellow;
+text-shadow: 0px -9px 51px rgb(234, 0, 0);
 }
