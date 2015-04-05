@@ -63,3 +63,14 @@ color: white;
   height: 75px;
   width: 75px;
 }
+
+
+
+
+
+/* singup_row should have signup button on left which takes the user to another page. and on right username/email and password with log in button to enter into profile*/
+
+
+/* signup_row- |SIGNUP BUTTON| OR username/email: |username/email_input|
+                                        password: |password_input      |
+                                                          |LOGIN_BUTTON|  */
