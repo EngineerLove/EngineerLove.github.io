@@ -2,135 +2,128 @@
 <html lang="en">
 
 
-<!-- start of head -->
-    <head>
-<title>Engineer Love</title>
+  <!-- START OF: HEAD -->
+  <head>
+    <title>Engineer Love</title>
 
-<!-- SIGN IN WITH GOOGLE API -->
-<script src="https://apis.google.com/js/client:platform.js" async defer></script>
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>
+    <!--  -->
 
-<!-- FONTS -->
-<link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:900' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!--  -->
 
-<!-- BOOTSTRAP -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="index.css" />
+    <!--  -->
 
-<!-- CSS -->
-<link type="text/css" rel="stylesheet" href="index.css" />
-
-<meta charset="UTF-8" />
-    </head>
-<!-- end of head -->
+    <meta charset="UTF-8" />
+  </head>
+  <!-- END OF: HEAD -->
 
 
-<!-- start of body -->
-<body>
-
-  <!-- TOP ROW -->
-  <div class="container-fluid">
-    <div class="row top_fixed_row">
-<div class="col-sm-1">
-  <img class="small_logo" src="https://lh5.googleusercontent.com/-LHyT7UoJI8s/VSBv-e5-Y_I/AAAAAAAAAUc/Evk6JmXdbao/w568-h554-no/engineerlove_logo.png">
-</div>
-
-<div class="col-sm-8"></div>
-
-<div class="col-sm-2">
-  <div class="input-group">
-  <input type="text" class="form-control search_people" placeholder="Search for someone..." aria-describedby="basic-addon2">
-  <span class="input-group-addon search_people_button" id="basic-addon2"><img class="smallest_logo" src="https://lh5.googleusercontent.com/-LHyT7UoJI8s/VSBv-e5-Y_I/AAAAAAAAAUc/Evk6JmXdbao/w568-h554-no/engineerlove_logo.png"></span>
-</div>
-
-</div>
-
+  <!-- START OF: BODY -->
+  <body>
+    <!-- START OF: TOP FIXED ROW  --> <!-- ROW NEEDS TO BE MADE FIXED -->
+    <div class="container-fluid">
+      <div class="row top_fixed_row">
+        <div class="col-sm-1">
+          <img class="small_logo" src="https://lh5.googleusercontent.com/-LHyT7UoJI8s/VSBv-e5-Y_I/AAAAAAAAAUc/Evk6JmXdbao/w568-h554-no/engineerlove_logo.png">
+        </div>
+        <div class="col-sm-8"></div>
+        <div class="col-sm-2">
+          <div class="input-group">
+            <input type="text" class="form-control search_people" placeholder="Search for someone..." aria-describedby="basic-addon2">
+            <span class="input-group-addon search_people_button" id="basic-addon2"><img class="smallest_logo" src="https://lh5.googleusercontent.com/-LHyT7UoJI8s/VSBv-e5-Y_I/AAAAAAAAAUc/Evk6JmXdbao/w568-h554-no/engineerlove_logo.png"></span>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+    <!-- END OF: TOP FIXED ROW -->
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-      <img class="engineerlove_logo" src="https://lh5.googleusercontent.com/-LHyT7UoJI8s/VSBv-e5-Y_I/AAAAAAAAAUc/Evk6JmXdbao/w568-h554-no/engineerlove_logo.png">
+
+
+    <!-- START OF: LARGE MIDDLE LOGO -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <img class="engineerlove_logo" src="https://lh5.googleusercontent.com/-LHyT7UoJI8s/VSBv-e5-Y_I/AAAAAAAAAUc/Evk6JmXdbao/w568-h554-no/engineerlove_logo.png">
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<!-- -->
+    <!--END OF: LARGE MIDDLE LOGO -->
 
 
 
-<div class="container-fluid">
-  <div class="row login_signup_row">
-    <div class="col-sm-4"></div>
-
-    <div class="col-sm-1">
-      <button class="signup_button" type="button"><strong>Sign up</strong></button>
+    <!-- START OF: SIGN-UP/LOGIN ROW -->
+    <div class="container-fluid">
+      <div class="row login_signup_row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-1">
+          <button class="signup_button" type="button"><strong>Sign up</strong></button>
+        </div>
+        <div class="col-sm-1">
+          <h1>OR</h1>
+        </div>
+        <div class="col-sm-3 username_email_div">
+          <span class="google_signinButton" id="signinButton">
+            <span
+              class="g-signin"
+              data-callback="signinCallback"
+              data-clientid="CLIENT_ID"
+              data-cookiepolicy="single_host_origin"
+              data-requestvisibleactions="http://schema.org/AddAction"
+              data-scope="https://www.googleapis.com/auth/plus.login">
+            </span>
+          </span>
+          <br><br><br>
+          <label for="username_email">Username/E-mail:</label>
+          <input class="u1" type="text" id="username_email" name="username_email" placeholder="Username/E-mail"><br>
+          <span class="password_div">
+            <label for="password">Password:</label>
+            <input class="u1" type="password" id="password" name="password" placeholder="Password">
+          </span><br>
+          <button class="login_button" type="button"><strong>Login<strong></button>
+        </div>
+      </div>
     </div>
+    <!-- END OF: SIGN-UP/LOGIN ROW -->
 
-    <div class="col-sm-1">
-      <h1>OR</h1>
+
+
+
+    <!-- START OF: ROSE BACKGROUND/ABOUT SECTION -->
+    <div class="container-fluid">
+      <div class="row background_image">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <h3><i>EngineerLove is a dating site for software developers.
+          <br><br>
+          We have teamed up with some of the most respected marital therapists and psychologists around the world, asking the questions that matter to create great relationships.
+          <br><br>
+          Our unique algorithm takes your answers and returns a result matching you with others based on some of the most important components in a relationship.<i></h3>
+        </div>
+      </div>
     </div>
-
-    <div class="col-sm-3 username_email_div">
-<span class="google_signinButton" id="signinButton">
-  <span
-    class="g-signin"
-    data-callback="signinCallback"
-    data-clientid="CLIENT_ID"
-    data-cookiepolicy="single_host_origin"
-    data-requestvisibleactions="http://schema.org/AddAction"
-    data-scope="https://www.googleapis.com/auth/plus.login">
-  </span>
-</span>
-<br><br><br>
-
-
-<label for="username_email">Username/E-mail:</label>
-<input class="u1" type="text" id="username_email" name="username_email" placeholder="Username/E-mail"><br>
-
-  <span class="password_div">
-    <label for="password">Password:</label>
-    <input class="u1" type="password" id="password" name="password" placeholder="Password">
-  </span><br>
-  <button class="login_button" type="button"><strong>Login<strong></button>
-
-    </div>
+    <!-- END OF: ROSE BACKGROUND/ABOUT SECTION -->
 
 
 
-  </div>
-</div>
+
+    <!-- START OF: JAVASCRIPT -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- END OF: JAVASCRIPT -->
+
+    <!-- START OF: SIGN IN WITH GOOGLE API -->
+    <script src="https://apis.google.com/js/client:platform.js" async defer></script>
+    <!-- END OF: SIGN IN WITH GOOGLE API -->
+  </body>
+  <!-- END OF: BODY -->
 
 
-
-<div class="container-fluid">
-<div class="row background_image">
-  <div class="col-sm-4"></div>
-  <div class="col-sm-4">
-<h3><i>EngineerLove is a dating site for software developers.
-<br><br>
-  We have teamed up with some of the most respected marital therapists and psychologists around the world, asking the questions that matter to create great relationships.
-<br><br>
-   Our unique algorithm takes your answers and returns a result matching you with others based on some of the most important components in a relationship.<i></h3>
-  </div>
-</div>
-</div>
-
-<div class="container">
-  <div class="row">
-
-  </div>
-</div>
-
-
-<!-- JavaScript -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
- <!-- end JavaScript -->
-
-</body>
-<!-- end of body -->
 </html>
-<!-- end of doc -->
