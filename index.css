@@ -54,8 +54,10 @@ color: white;
 }
 
 .top_fixed_row {
+  position: fixed;
   background-color: black;
   width: 104%;
+  z-index: 1;
 }
 
 .small_logo {
@@ -141,4 +143,9 @@ width: 260px;
 
 .search_people_button {
   background-color: rgb(254, 231, 231);
+}
+
+
+.large_middle_logo {
+  margin-top: 77px;
 }
