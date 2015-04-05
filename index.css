@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 h3 {
@@ -41,9 +41,6 @@ color: white;
   color: white;
 }
 
-.p1, .u1 {
- color: #C4151C;
-}
 
 .background_image {
   background-image: url("http://www.hdwallwide.com/wp-content/uploads/2014/02/red-rose-16-wallpaper-1080p-HD.jpg");
@@ -74,3 +71,54 @@ color: white;
 /* signup_row- |SIGNUP BUTTON| OR username/email: |username/email_input|
                                         password: |password_input      |
                                                           |LOGIN_BUTTON|  */
+
+
+
+.signup_button {
+  margin-top: 57px;
+  margin-left: -38px;
+  height: 41px;
+  width: 100px;
+  padding-bottom: 10px;
+  background-color: rgb(231, 192, 67);
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.username_email_div {
+  padding-bottom: 10px;
+}
+
+.password_div {
+  margin-left: 50px;
+}
+
+.signinButton {
+  position: absolute;
+  margin-left: 162px;
+  margin-top: 10px;
+}
+
+p {
+  margin-left: -139px;
+}
+
+
+h1 {
+    margin-left: 23px;
+    margin-left: 16px;
+    margin-top: 58px;
+}
+
+label {
+color: #C4151C;
+}
+
+
+.login_button {
+  margin-left: 225px;
+  border-radius: 4px;
+  background-color: rgb(65, 115, 67);
+  color: white;
+  border: 2px solid white;
+}
