@@ -8,8 +8,8 @@ h3 {
 }
 
 .engineerlove_logo {
-  height: 400px;
-  width: 400px;
+  height: 415px;
+  width: 415px;
 }
 
 .password {
@@ -62,8 +62,8 @@ color: white;
   }
 
 .small_logo {
-  height: 95px;
-  width: 95px;
+  height:90px;
+  width: 90px;
 }
 
 
@@ -121,7 +121,7 @@ color: #C4151C;
   color: white;
   border: 2px solid white;
 
-    background: -webkit-linear-gradient(#67ae55, #578843);
+  background: -webkit-linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
   -webkit-box-shadow: inset 0 1px 1px #a4e388;
   border-color: #3b6e22 #3b6e22 #2c5115;
@@ -137,7 +137,7 @@ color: #C4151C;
 }
 
 .input-group {
-top: 54px;
+top: 47px;
 margin-top: 0px;
 padding-top: 4px;
 width: 260px;
@@ -149,9 +149,9 @@ width: 260px;
 
 
 .large_middle_logo {
-  margin-top: 77px;
+  margin-top: 65px;
 }
 
 .middle_logo_div {
-  margin-top: 20px;
+  margin-top: 27px;
 }
