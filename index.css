@@ -51,7 +51,7 @@ color: white;
 .login_signup_row {
   background-color: rgba(255, 0, 0, 0.09);
   width: 104%;
-  background: -webkit-linear-gradient(#C4151C, #000000);
+  background: -webkit-linear-gradient(#C4151C, #FFFFFF);
 }
 
 .top_fixed_row {
@@ -59,7 +59,7 @@ color: white;
   position: fixed;
   width: 104%;
   z-index: 1;
-  background: -webkit-linear-gradient(#C4151C, #000000);
+  background: -webkit-linear-gradient(#C4151C, #FFFFFF);
   }
 
 .small_logo {
