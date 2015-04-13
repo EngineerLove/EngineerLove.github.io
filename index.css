@@ -106,6 +106,7 @@ p {
 
 .background_images {
   background-image: url("http://static1.squarespace.com/static/5099810de4b0d2694881fc09/t/50e5e04ee4b0d83d92320dea/1357242446531/happy+couple.jpg");
+  height: 730px;
 }
 
 
@@ -161,4 +162,5 @@ width: 260px;
 
 .middle_logo_div {
   margin-top: 27px;
+
 }
